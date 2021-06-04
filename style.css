@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(61, 111, 150);
+  color: white;
+}
+
+body {
+  margin: 0px;
+  font-family: "robotto";
+}
+
+form {
+  padding: 10px;
+  margin: 10px auto;
+  width: 280px;
+}
+
+fieldset {
+  padding: 0 20px 20px 20px;
+  margin: 20px auto;
+  width: 100px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+}
+
+input, select {
+  padding: 3px;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 1px 1px 2px #c0c0c0 inset;
+  margin-bottom: 10px;
+}
+
+textarea {
+  padding: 3px;
+  border-radius: 5px;
+  width: 400px;
+  height: 100px;
+  box-shadow: 1px 1px 2px #c0c0c0 inset;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 400px;
+}
+
+.div-img {
+  margin: auto;
+  position: relative;
+}
+.div-img img {
+  width: 400px;
+}
+
+.remove-image {
+  display: none;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 10em;
+  padding: 2px 6px 3px;
+  text-decoration: none;
+  font: 100 15px/10px sans-serif;
+  background: #555;
+  border: 3px solid #fff;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+.remove-image:hover {
+  background: #e54e4e;
+  top: -10px;
+  right: -10px;
+}
+.remove-image:active {
+  background: #e54e4e;
+  top: -10px;
+  right: -10px;
+}
+
+.form-input #preview {
+  display: none;
+}
+
+.preview img {
+  display: flex;
+  margin: 5px 0;
+  max-height: 300px;
+  max-width: 400px;
+}
+
+.card {
+  width: max-content;
+  background-color: #adadad32;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 14px rgba(221, 221, 221, 0.5607843137254902);
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(32, 88, 131);
+  position: relative;
+}
+.navbar .nav-links {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+}
+
+.navbar .nav-links a:hover {
+  color: white;
+}
+
+a:visited {
+  color: black;
+}
+
+a:visited:hover {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(32, 88, 131);
+  font-size: larger;
+}
