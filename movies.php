@@ -59,7 +59,7 @@ $_SESSION["Back"] = $_SERVER["HTTP_REFERER"];
         echo "<a title='Modifier film' href='updateMovie.php?id=" . htmlspecialchars($movie['id']) . "'>Modifier<a>";
         ?>
       <?php
-        echo "<a title='Supprimer film' href='backend/deleteMovieImg.php?id=" . htmlspecialchars($movie['id']) . "'>Supprimer<a>";
+        echo "<a title='Supprimer film' href='backend/deleteMovie.php?id=" . htmlspecialchars($movie['id']) . "'>Supprimer<a>";
       } else return;
       ?>
     </fieldset>
@@ -97,7 +97,7 @@ $_SESSION["Back"] = $_SERVER["HTTP_REFERER"];
           echo "<a title='Modifier film' href='updateMovie.php?id=" . htmlspecialchars($data['id']) . "'>Modifier<a>";
         ?>
         <?php
-          echo "<a title='Supprimer film' href='backend/deleteMovieImg.php?id=" . htmlspecialchars($data['id']) . "'>Supprimer<a>";
+          echo "<a title='Supprimer film' href='backend/deleteMovie.php?id=" . htmlspecialchars($data['id']) . "'>Supprimer<a>";
         }
         ?>
       </fieldset>
