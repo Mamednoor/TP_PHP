@@ -21,3 +21,4 @@ ainsi que le fichier config.php pour la connexion à la BDD
 
 La stylisation de la web app est très basique,  
 N.B : Création d'un dossier " images " à la racine est nécessaire pour l'accomplissement des requête d'upload.  
+N.B : Penser à renseigner votre nom d'utilisateur et votre mot de passe dans le fichier config.php
